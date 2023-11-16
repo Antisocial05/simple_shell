@@ -16,7 +16,7 @@ int main(int argc, char *argv[], char **env)
 	(void)argv;
 	(void)argc;
 
-	scoial_cmd - NULL;
+	scoial_cmd = NULL;
 	scoial_exitstatus = 0;
 
 	while (1)
@@ -29,7 +29,7 @@ int main(int argc, char *argv[], char **env)
 		{
 			break;
 		}
-		else if (strncmp(scocial_cmd, "exit", 5) == 0)
+		else if (strncmp(scoial_cmd, "exit", 5) == 0)
 		{
 			scoial_exitstatus = atoi(scoial_cmd + 5);
 			break;

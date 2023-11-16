@@ -8,7 +8,7 @@
 #include <sys/wait.h>
 #include <fcntl.h>
 void anti_cmds(char **anti_cmds, size_t *anti_sizes);
-void anti env(char **anti_envs);
+void anti_env(char **anti_envs);
 ssize_t anti_getline(char **anti_buff, size_t *anti_size);
 void anti_prompt(void);
 int anti_putchar(char anti_chara);
