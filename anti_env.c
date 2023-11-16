@@ -1,6 +1,6 @@
 #include "shell.h"
 /**
-* print_env - Prints enviroment variable to stdout
+* anti_env - Prints enviroment variable to stdout
 * @scoial_env: Enviroment variable to be printed
 */
 void anti_env(char **scoial_env)
